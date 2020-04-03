@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Card Keeper (NFC)</string>
+    <string name="greet">Hello, There !</string>
+    <string name="info_detail">This app can read \nyour NFC cards</string>
+    <string name="button_text">Continue</string>
+    <string name="saved_cards">Saved Cards</string>
+    <string name="instruction">Place your card close to the NFC area.</string>
+    <string name="cardNumber">Card Number</string>
+    <string name="expDate">Expiry Date</string>
+    <string name="developer">Developed by </string>
+    <string name="add_card">add card</string>
+</resources>
