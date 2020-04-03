@@ -9,5 +9,9 @@
         <item name="android:windowBackground">@drawable/bg</item>
         <item name="statusBarBackground">@android:color/transparent</item>
         <item name="android:windowLightStatusBar">false</item>
+        <item name="android:screenOrientation">portrait</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentTransitions">true</item>
     </style>
 </resources>
