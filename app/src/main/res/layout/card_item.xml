@@ -4,21 +4,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/savedCard"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginEnd="40dp"
         android:clickable="true"
         android:focusable="true"
         app:cardBackgroundColor="#2A2C41"
         app:cardCornerRadius="20dp"
         app:cardElevation="5dp"
-        app:layout_constraintBottom_toTopOf="@+id/guideline2"
-        app:layout_constraintEnd_toStartOf="@+id/guideline4"
-        app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toTopOf="@+id/guideline5">
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"

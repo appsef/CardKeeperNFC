@@ -69,12 +69,18 @@ public class MainActivity extends AppCompatActivity {
                     MaterialAlertDialogBuilder alertbox = new MaterialAlertDialogBuilder(v.getContext(),R.style.AlertDialogTheme);
                     alertbox.setTitle("Error");
                     alertbox.setBackground(getDrawable(R.drawable.bg));
-                    alertbox.setMessage("Your phone doesn't have NFC and this app won't work in your phone.");
+                    alertbox.setMessage("You don't have it.");
                     alertbox.setNegativeButton("EXIT", new DialogInterface.OnClickListener() {
 
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
 
+                        }
+                    });
+                    alertbox.setNegativeButton("What?", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            alertbox.setMessage("A phone with NFC.");
                         }
                     });
                     alertbox.show();

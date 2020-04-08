@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Card Keeper (NFC)</string>
+    <string name="app_name">CardBox (NFC)</string>
     <string name="greet">Hello, There !</string>
     <string name="info_detail">This app can read \nyour NFC cards</string>
     <string name="button_text">Continue</string>
